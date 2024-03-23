@@ -1,4 +1,4 @@
-# This is CS50x
+# <img src="harvard.png" height="32px"> This is CS50x <img src="duck.png" height="32px">
 Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.
 
 **DISCLAIMER:** This repository contains my personal projects and files for CS50x. Its purpose is to act as a public portfolio of my work and  is not intended for sharing answers or promoting [academic dishonesty](https://cs50.harvard.edu/x/2024/honesty/). **If you are currently enrolled in the course, you must complete your assignments independently unless otherwise specified and use the course materials for reference.** 
