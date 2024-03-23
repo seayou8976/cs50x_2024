@@ -13,12 +13,12 @@ Harvard University's introduction to the intellectual enterprises of computer sc
 | Week      | Type | Title | Grade|
 | ----------- | ----------- | ----------- | ------------- |
 | 0      | pset  | Scratch    | ![](https://geps.dev/progress/88)
-| 1      | lab  | Population    | ![](https://geps.dev/progress/100)
+| 1      | lab (2023) | Population    | ![](https://geps.dev/progress/100)
 | 1      | pset  | Hello    | ![](https://geps.dev/progress/100)
 | 1      | pset  | Mario    | ![](https://geps.dev/progress/100)
 | 1      | pset  | Cash    | ![](https://geps.dev/progress/100)
 | 1      | pset  | Credit    | ![](https://geps.dev/progress/100)
-| 2      | Lab  | Scrabble    | ![](https://geps.dev/progress/100)
+| 2      | lab (2023)  | Scrabble    | ![](https://geps.dev/progress/100)
 | 2      | pset  | Readability    | ![](https://geps.dev/progress/100)
 | 2      | pset  | Caesar    | ![](https://geps.dev/progress/100)
 | 2      | pset  | Substitution    | ![](https://geps.dev/progress/100)
@@ -28,7 +28,7 @@ Harvard University's introduction to the intellectual enterprises of computer sc
 | 4      | pset  | Volume     | ![](https://geps.dev/progress/100)
 | 4      | pset  | Filter-less      | ![](https://geps.dev/progress/100)
 | 4      | pset  | Recover      | ![](https://geps.dev/progress/100)
-| 5      | pset       | Inheritance | ![](https://geps.dev/progress/100)
+| 5      | pset  | Inheritance | ![](https://geps.dev/progress/100)
 | 5      | pset  | Speller      | ![](https://geps.dev/progress/100)
 | 6      | pset  | Hello      | ![](https://geps.dev/progress/100)
 | 6      | pset  | Mario      | ![](https://geps.dev/progress/100)
