@@ -1,0 +1,20 @@
+HTML tags:
+ 1. <link>
+ 2. <script>
+ 3. <meta>
+ 4. <header>
+ 5. <button>
+ 6. <div>
+ 7. <span>
+ 8. <ol>
+ 9. <li>
+10. <a>
+
+CSS properties:
+ 1. background-color
+ 2. color
+ 3. text-decoration
+ 4. font-family
+ 5. padding
+
+ I incorporated a dynamic navbar from the Bootstrap documentation

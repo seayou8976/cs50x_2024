@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th class="text-start">Symbol</th>
+                <th class="text-end">Shares</th>
+                <th class="text-end">Price</th>
+                <th class="text-end">TOTAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for key, values in current_holding.items() %}
+            <tr>
+                <td class="text-start">{{ key }}</td>
+                <td class="text-end">{{ values[0] }}</td>
+                <td class="text-end">{{ values[1] | usd }}</td>
+                <td class="text-end">{{ values[2] | usd }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="border-0 fw-bold text-end" colspan="3">Cash</td>
+                <td class="border-0 text-end">{{ current_cash | usd }}</td>
+            </tr>
+            <tr>
+                <td class="border-0 fw-bold text-end" colspan="3">TOTAL</td>
+                <td class="border-0 text-end">{{ total_cash | usd }}</td>
+            </tr>
+        </tfoot>
+    </table>
+{% endblock %}
