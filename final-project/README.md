@@ -1,6 +1,6 @@
 # Cloud Resume Challenge (Azure)
 #### Video Demo:  TODO
-#### Blog Post(s): [Part 1](https://hashnode.com/post/clu051b22000909l444r112sz), [Part 2](https://hashnode.com/post/clu051b22000909l444r112sz), [Part 3](https://hashnode.com/post/clu051b22000909l444r112sz), [Summary](https://hashnode.com/post/clu051b22000909l444r112sz)
+#### Blog Post(s): [Part 1](https://blog.seanyoung.me/cloud-resume-challenge-azure-part-1-of-3), [Part 2](https://blog.seanyoung.me/cloud-resume-challenge-azure-part-2-of-3), [Part 3](https://blog.seanyoung.me/cloud-resume-challenge-azure-part-3-of-3), [Summary](https://blog.seanyoung.me/cloud-resume-challenge-azure-final)
 #### Website: https://resume.seanyoung.me
 
 #### Background:
@@ -35,22 +35,22 @@ Included in my final project, you will find the following:
 
 **script.js** - The primary JavaScript for my site, this contains the function that interacts with my Azure Function API below and updates the visitor count on the website. It's primitive, but the primary focus was on the API and the interaction with the Database.
 
-**function_app.py** - Without a doubt, this was the most difficult piece to create - a significant amount of time went into testing and reading documentation, as well as using AI chatbots such as ChatGPT and GitHub Copilot before it worked as intended. This runs inside my Azure Function App and responds to HTTP requests to update (POST) and retrieve (GET) the visitor count stored in my CosmosDB instance.
+**function_app.py** - Without a doubt, this was the most difficult piece to create - I'm not sure if it was initially beyond me or if I just couldn't put it together. A significant amount of time went into testing and reading documentation, as well as using AI chatbots such as ChatGPT and GitHub Copilot before it worked as intended - most of the existing examples I found (and most of the chatbot recommendations) were using the Python Programming Model (for Azure Functions) v1, and v2 is what is current. This runs inside my Azure Function App and responds to HTTP requests to update (POST) and retrieve (GET) the visitor count stored in my CosmosDB instance.
 
 **frontend.tf** - A terraform script that creates and configures the Azure infrstructure that hosts my static website - a resource group, storage account, and CDN endpoint.
 
-**backend.tf** - A terraform script that creates and configures the back-end Azure infrastructure, including a resource group, the CosmosDB instance, and Azure Function App
+**backend.tf** - A terraform script that creates and configures the back-end Azure infrastructure, including a resource group, the CosmosDB instance, and Azure Function App.
 
 **frontend.yml** - The GitHub Action workflow triggered on a commit to the repository that holds my front-end HTML, CSS, and JavaScript.
 
-**backend.yml** - The GitHub Action workflow triggered on a commit to the repository that holds the python script and other associated files (not relevant here) for my Azure Function App and CosmosDB instance.
+**backend.yml** - The Azure Pipeline workflow triggered on a commit to the repository that holds the python script and other associated files (not relevant here) for my Azure Function App and CosmosDB instance.
 
 ## How to view the final project
 
-Unfortunately, due to sensitive information required, this project cannot be run locally in its entirety without significant modification. The website can be viewed, which will apply the CSS and the download link will be functional, however the viewer counter will not work and will default to 0000.
+Unfortunately, due to sensitive information required stored in repository secrets, this project cannot be run locally in its entirety without significant modification. The website can be viewed, which will apply the CSS and the download link will be functional, however the viewer counter will not work and will default to 0000.
 
- The _full_ contents of the project can be viewed in my GitHub repositories here: [front-end]() and here: [back-end](). 
+The _full_ contents of the project can be viewed in my GitHub repositories here: [front-end](https://github.com/seayou8976/azure_cloud_resume) and here: [back-end](https://github.com/seayou8976/azure_function_api). 
  
- The current version of the fully functional site can be viewed by visiting the link provided at the top of this readme along with more information about the building process and my overalls thoughts in the linked blog posts.
+The current version of the fully functional site can be viewed by visiting the link provided at the top of this readme along with more information about the building process and my overalls thoughts in the linked blog posts.
 
   
