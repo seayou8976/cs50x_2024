@@ -1,0 +1,133 @@
+body {
+    background-color: lightblue;
+    font-family: sans-serif;
+    font-size: 0.75rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    margin: 0;
+    margin-top: 1%;
+}
+
+table {
+    border: 0px;
+    border-collapse: collapse;
+}
+
+p {
+    margin: 0;
+    margin-top: 1%;
+    margin-bottom: 0%
+}
+
+ul {
+    margin: 0;
+    margin-top: 0%;
+    margin-bottom: 1%;
+}
+
+.body-header {
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #004d40;
+}
+
+.body-separator {
+    padding: 0.7%;
+}
+
+.competency {
+    font-weight: bold;
+    text-align: left;
+    width: 40%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.experience-company {
+    font-weight: bold;
+}
+
+.experience-title {
+    font-style: italic;
+}
+
+.experience-year {
+    float: right;
+    font-style: normal;
+}
+
+#paper {
+    margin: auto;
+    width: 85%;
+    height: auto;
+    background-color: whitesmoke;
+    padding: 3% 4%;
+    position: relative;
+    /* box-shadow: 7px 7px 3px black; */
+}
+  
+#paper,
+#paper::before,
+#paper::after {
+/* Styles to distinguish sheets from one another */
+box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+border: 1px solid #bbb;
+}
+
+#paper::before,
+#paper::after {
+content: "";
+position: absolute;
+height: 95%;
+width: 99%;
+background-color: #eee;
+}
+
+#paper::before {
+right: 15px;
+top: 0;
+transform: rotate(-1deg);
+z-index: -1;
+}
+
+#paper::after {
+top: 5px;
+right: -5px;
+transform: rotate(1deg);
+z-index: -2;
+}
+
+#view-count {
+    color: #001F3F;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+#downloadLink {
+    float: right;
+    font-size: 0.8rem;
+}
+
+#name {
+    color: #004d40;
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+
+#contact {
+    font-size: 0.7rem;
+}
+
+#profile-content {
+    text-align: justify;
+}
+
+#certifications {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
