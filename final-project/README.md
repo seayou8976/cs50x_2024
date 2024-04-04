@@ -1,5 +1,5 @@
 # Cloud Resume Challenge (Azure)
-#### Video Demo:  TODO
+#### Video Demo:  [https://youtu.be/ENdBrLAVngw](https://youtu.be/ENdBrLAVngw)
 #### Blog Post(s): [Part 1](https://blog.seanyoung.me/cloud-resume-challenge-azure-part-1-of-3), [Part 2](https://blog.seanyoung.me/cloud-resume-challenge-azure-part-2-of-3), [Part 3](https://blog.seanyoung.me/cloud-resume-challenge-azure-part-3-of-3), [Summary](https://blog.seanyoung.me/cloud-resume-challenge-azure-final)
 #### Website: https://resume.seanyoung.me
 
