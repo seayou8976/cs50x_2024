@@ -2,6 +2,9 @@ import logging
 import azure.functions as func
 import os
 from azure.cosmos import CosmosClient
+# The initial Azure Function-specific logic was created with assistance
+# from AI chatbots. Aside from that, they assisted with formatting and
+# tightening up the code so it wasn't messy.
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
